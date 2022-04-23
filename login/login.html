@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="login.css">
+        
+    <script src="../assets/js/main.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    
+</head>
+
+<body>
+    <div id="loading">
+        <div class="load df">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header class=df id=header>
+        <div class=df>
+            <a class="dcrt" href="../index.html" style="display:flex; align-items:center; justify-content:center">
+                <span class="iconify" data-icon="ph:caret-double-left-thin" style="margin-right:1rem;color:var(--red-color);font-size:3rem"></span>
+            </a>
+            <h1 style="">Đăng nhập</h1>
+        </div>
+
+        <a href=# class="dcrt">Cần trợ giúp?</a>
+    </header>
+    <div class=container>
+        <div class=content>
+            <div>
+                <div class="ti" style="padding:3rem 0 2rem 0">
+                    <img style="height:8rem;transform-origin:top center; animation:a 10s ease-in-out 1s" src="../assets/img/logo.png" alt="Shopee">
+                </div>
+                <form>
+                    <div class="df mh mw inb" style="border-bottom:1px solid #ccc">
+                        <span class="iconify ic" data-icon="ph:user-focus-thin" style="flex:1"></span>
+                        <div style=flex:9 class="mh mw">
+                            <div class="df">
+                                <input placeholder="Email/Số điện thoại/Tên đăng nhập" required id="js-u" oninput="removeU()">
+                                <span id="js-cl-u" class="iconify ic close" data-icon="ei:close" onclick="deleteU()" style="margin-right:1rem"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id=error1>Vui lòng điền vào mục này</div>
+
+                    <div class="df mw mh" style="border-bottom:1px solid #ccc">
+                       <span class="iconify ic " data-icon="arcticons:passbolt" style="flex:1"></span>
+                        <div style=flex:9 class=df>
+                            <div class="df" style="flex:6">
+                                <input id="js-p" type=password name="" maxlength="16" placeholder=Password required oninput="removeP()">
+                                <span id="js-cl-p" class="iconify ic close" data-icon="ei:close" onclick="deleteP()" style="margin-right:1rem"></span>
+                            </div>
+                            <div class="df" style="flex:4;min-width:130px">
+                                <span  id="js-pre" class="iconify" data-icon="ph:eye-closed-thin" onclick="pre()" style="font-size:5rem">
+                                </span>
+
+                                <div style="height:40%;width:0.1rem;margin:0 1rem;background-color:#ccc"></div>
+
+                                <a href="#" class="dcrt " style="font-size:1.2rem">Quyên tài khoản và mật khẩu?</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id=error2>Vui lòng điền vào mục này</div>
+                </form>
+                <button class=" mw ">ĐĂNG NHẬP</button>
+            </div>
+
+            <div class="df registration-other" style="margin-bottom:2.5rem; font-size:1.3rem">
+                <div><a href="#" class="dcrt">Đăng ký</a>
+                </div>
+                <div><a href="#" class=" dcrt">Đăng nhập bằng SMS</a>
+                </div>
+            </div>
+            <div class="bt">
+                <div class="df" style="justify-content:center;height:auto;margin-bottom:2rem">
+                    <div style="width:10rem; height:0.1rem; background-color:#ccc">
+                    </div>
+                    <div style="margin:0 1.6rem">HOẶC</div>
+                    <div style="width:10rem; height:0.1rem; background-color:#ccc">
+                    </div>
+                </div>
+                <button class="df btn-sc"><img class="img-icon" src="../assets/img/fb.png" alt=""><span class="mw">Tiếp tục với Facebook</span>
+                </button>
+                <button class="df btn-sc"><img class="img-icon" src="../assets/img/gg.png" alt=""><span class="mw">Tiếp tục với Google</span>
+                </button>
+                <button class="df btn-sc">
+                		<i class="bi bi-apple"></i><span class="mw">Tiếp tục với Apple</span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

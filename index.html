@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+		
+<head>
+    <meta charset="UTF-8">
+    <title>Shopee Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="./assets/css/base.css"></link>
+    
+    <link rel="stylesheet" href="./assets/css/main.css"></link>
+    
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="./assets/owlcarousel/owl.theme.default.min.css">
+    
+    <script src="./assets/js/main.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.2.1/iconify.min.js"></script>
+
+</head>
+
+<body>
+    <div id="loading">
+        <div class="load df">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    <header>
+        <div class="df mw" style="justify-content: center; max-width:78.6rem">
+            <div class="search-mobile">
+                <div class="search-bar df mw mh">
+                    <div class="ti ic-search">
+                    	<span class="iconify-inline" data-icon="ph:magnifying-glass-light" style="font-size:2rem"></span>
+                    </div>
+ <form action="" method="" class="mw mh">
+         <input class="mw mh" type="search" name="" id="my-search" placeholder="Tìm Shopee" onclick="mySearch()">                        
+   
+   </form>  
+   <div class="modal">
+     <div class="search-dropdown mw">
+       <div id="search-trending">
+         <a class="df thc" href="#">
+           <p>Tìm Shopee</p>
+           <img src="./assets/img/icon-ss.png" alt="">
+         </a>
+        </div>
+        <div id="search-suggest" style="display:none">
+          <a class="df thc" href="#">
+            <p>Tìm sản phẩm "<span id="search-product"></span>"</p>
+           </a>
+           <a class="df thc" href="#">
+            <p>Tìm shop "<span id="search-shop"></span>"</p>
+            </a>
+          </div>
+       </div>
+     </div>   
+ </div>
+</div>
+            <a class="ti dcrt thc" href="./login/login.html">
+               
+                		<span class="ic iconify-inline" data-icon="ph:shopping-cart-simple-light" style="margin:0.6rem"></span>
+                
+            </a>
+            <a class="ti dcrt thc" href="./login/login.html">
+                
+                	<span class="ic iconify-inline" data-icon="ph:user-light" style="margin:0.6rem"></span>
+            
+            </a>
+        </div>
+
+    </header>
+   
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="./assets/img/slider1.png" alt="">
+        </div>
+        <div class="item"><img src="./assets/img/slider2.png" alt="">
+        </div>
+        <div class="item"><img src="./assets/img/slider3.png" alt="">
+        </div>
+    </div>
+    
+    <div class="grid-row scrb" style="padding-top:1rem;height:20rem">
+        <div class="card-items"><img src="./assets/img/item01.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item02.png" alt="">
+            <p>Shopee</p>       
+        </div>
+        <div class="card-items"><img src="./assets/img/item03.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item04.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item05.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item06.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item07.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item08.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item09.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item10.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item01.png" alt="">
+            <p>Shopee</p>
+        </div>
+        <div class="card-items"><img src="./assets/img/item02.png" alt="">
+            <p>Shopee</p>
+        </div>
+    </div>
+    <div><a style="-webkit-tap-highlight-color: rgba(51, 181, 229, 0);" href="#"><div class="banner"></div></a></div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>FLASH SALE</h3><a href="#">Xem tất cả</a>
+        </div>
+        <div class="grid-row-1">
+            <div class="card-sale">
+            		<a href="#">
+            				<img src="./assets/img/fs1.png">
+                <div class="sale-body">
+                    <div class="price"><span>₫555.000</span>
+                    </div>
+                    <div class="sold">
+                        <div class="quantity"><span>Đã bán</span>
+                        </div>
+                        <div class="sold-1"></div>
+                        <div class="sold-2"></div>
+                    </div>
+                </div>
+            		</a>
+            </div>
+            <div class="card-sale">
+            		<a href="#">
+            				<img src="./assets/img/fs1.png">
+                <div class="sale-body">
+                    <div class="price"><span>₫555.000</span>
+                    </div>
+                    <div class="sold">
+                        <div class="quantity"><span>Đã bán</span>
+                        </div>
+                        <div class="sold-1"></div>
+                        <div class="sold-2"></div>
+                    </div>
+                </div>
+            		</a>
+            </div>
+            <div class="card-sale">
+            		<a href="#">
+            				<img src="./assets/img/fs1.png">
+                <div class="sale-body">
+                    <div class="price"><span>₫555.000</span>
+                    </div>
+                    <div class="sold">
+                        <div class="quantity"><span>Đã bán</span>
+                        </div>
+                        <div class="sold-1"></div>
+                        <div class="sold-2"></div>
+                    </div>
+                </div>
+            		</a>
+            </div>
+            <div class="card-sale">
+            		<a href="#">
+            				<img src="./assets/img/fs1.png">
+                <div class="sale-body">
+                    <div class="price"><span>₫555.000</span>
+                    </div>
+                    <div class="sold">
+                        <div class="quantity"><span>Đã bán</span>
+                        </div>
+                        <div class="sold-1"></div>
+                        <div class="sold-2"></div>
+                    </div>
+                </div>
+            		</a>
+            </div>
+            <div class="card-sale">
+            		<a href="#">
+            				<img src="./assets/img/fs1.png">
+                <div class="sale-body">
+                    <div class="price"><span>₫555.000</span>
+                    </div>
+                    <div class="sold">
+                        <div class="quantity"><span>Đã bán</span>
+                        </div>
+                        <div class="sold-1"></div>
+                        <div class="sold-2"></div>
+                    </div>
+                </div>
+            		</a>
+            </div>
+        </div>
+    </div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>TÌM KIẾM HÀNG ĐẦU</h3><a href="#">Xem thêm</a>
+        </div>
+        <div class="grid-row-1">
+        		<div class="card">
+                <a href="#">
+                		<img src="./assets/img/kinh.webp" alt="">
+                <div class="card-body">
+                    <div class="product-name">Ốp Lưng Iphone</div>
+                    <div class="qs">Đã bán 250k+ </div>
+                </div>
+                </a>       		
+               </div>
+            <div class="card">
+            		<a href="#">
+            				<img src="./assets/img/kinh.webp" alt="">
+                <div class="card-body">
+                    <div class="product-name">Ốp Lưng Iphone </div>
+                    <div class="qs">Đã bán 250k+ </div>
+                </div>
+            		</a>
+            </div>
+            <div class="card">
+            		<a href="#">
+            				<img src="./assets/img/kinh.webp" alt="">
+                <div class="card-body">
+                    <div class="product-name">Ốp Lưng Iphone </div>
+                    <div class="qs">Đã bán 250k+ </div>
+                </div>
+            		</a>
+            </div>
+        </div>
+    </div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>SHOPEE MALL</h3><a href="#">Xem thêm</a>
+        </div>
+        <div class="assurance df">
+            <div><a href="#">
+            		<span class="iconify check" data-icon="ph:circle-wavy-check-fill" style="color: blue;"></span>
+      <p>Miễn phí trả hàng</p></a></div>
+            <div><a href="#">
+            		<span class="iconify check" data-icon="ph:circle-wavy-check-fill" style="color: blue;"></span> 
+      <p>Chính hãng 100%</p></a></div>
+            <div><a href="#">
+            	<span class="iconify check" data-icon="ph:circle-wavy-check-fill" style="color: blue;"></span>
+      <p>Giao miễn phí</p></a></div>
+        </div>
+        <div class="grid-row-1">
+             <a href="#" class="card-small">
+                <div class="description">Mua 1 tặng 3 </div>
+            </a>
+             <a href="#" class="card-small">
+                <div class="description">Mua 1 tặng 3 </div>
+            </a>
+            <a href="#" class="card-small">
+                <div class="description">Mua 1 tặng 3 </div>
+            </a>
+             <a href="#" class="card-small">
+                <div class="description">Mua 1 tặng 3 </div>
+            </a>
+             <a href="#" class="card-small">
+                <div class="description">Mua 1 tặng 3 </div>
+            </a>
+        </div>
+    </div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>SHOPEE LIVE</h3><a href="#">Xem thêm</a>
+        </div>
+        <div class="grid-row-1">
+            <a href="#" class="card-live">
+                <div class="label-card ">
+                    <div class="label-live">		<span class="iconify live" data-icon="fluent:live-24-regular"></span>
+                        <div>LIVE</div>
+                    </div>
+                    <div class="label-view"><span class="iconify" data-icon="simple-icons:livewire"></span>
+                        <div>5,7K</div>
+                    </div>
+                </div>
+                <div class="description-live">
+                    <div>SHOPEE Live</div>
+                </div>
+            </a>
+            <a href="#" class="card-live">
+                <div class="label-card ">
+                    <div class="label-live">		<span class="iconify live" data-icon="fluent:live-24-regular"></span>
+                        <div>LIVE</div>
+                    </div>
+                    <div class="label-view"><span class="iconify" data-icon="simple-icons:livewire"></span>
+                        <div>5,7K</div>
+                    </div>
+                </div>
+                <div class="description-live">
+                    <div>SHOPEE Live</div>
+                </div>
+            </a>
+           <a href="#" class="card-live">
+                <div class="label-card ">
+                    <div class="label-live">		<span class="iconify live" data-icon="fluent:live-24-regular"></span>
+                        <div>LIVE</div>
+                    </div>
+                    <div class="label-view"><span class="iconify" data-icon="simple-icons:livewire"></span>
+                        <div>5,7K</div>
+                    </div>
+                </div>
+                <div class="description-live">
+                    <div>SHOPEE Live</div>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>TÌM KIẾM PHỔ BIẾN</h3><a class="df" href="#">Xem thêm</a>
+        </div>
+        <div class="grid-column" style="overflow-y:hidden;height:auto;grid-auto-flow:column;grid-template-rows:auto auto;grid-auto-columns: 50%">
+            <a href="#" class="card-common">
+                <div class="information">
+                    <div class="name-product">Dép</div>
+                    <div class="slsp">3Tr+ Sản Phẩm</div>
+                </div>
+                <div class="img-common"><img src="./assets/img/dep.jpeg" alt="">
+                </div>
+            </a>
+            <a href="#" class="card-common">
+                
+                		<div class="information">
+                    <div class="name-product">Dép</div>
+                    <div class="slsp">3Tr+ Sản Phẩm</div>
+                </div>
+                <div class="img-common"><img src="./assets/img/dep.jpeg" alt="">
+                </div>
+                
+            </a>
+            <a href="#" class="card-common">
+                
+                		<div class="information">
+                    <div class="name-product">Dép</div>
+                    <div class="slsp">3Tr+ Sản Phẩm</div>
+                </div>
+                <div class="img-common"><img src="./assets/img/dep.jpeg" alt="">
+                </div>
+                
+            </a>
+           <a href="#" class="card-common">
+                
+                		<div class="information">
+                    <div class="name-product">Dép</div>
+                    <div class="slsp">3Tr+ Sản Phẩm</div>
+                </div>
+                <div class="img-common"><img src="./assets/img/dep.jpeg" alt="">
+                </div>
+                
+            </a>
+        </div>
+    </div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>DANH MỤC</h3><a href="#">Xem thêm</a>
+        </div>
+        <div class="grid-row" style="padding-bottom:1rem">
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc1.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc2.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc3.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+           <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc4.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc1.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc2.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc3.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+            <div class="card-dm">
+                <a href="#">
+                		<div class="img-dm"><img src="./assets/img/danhmuc1.png" alt="">
+                </div>
+                <p>Máy Tính & Laptop</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="pre-scrollable">
+        <div class="header">
+            <h3>GỢI Ý HÔM NAY</h3><a href="#">Xem thêm</a>
+        </div>
+        <div class="grid-column" style="background: linear-gradient( rgb(255,255,255) 0px, rgb(239,239,239)2.5rem);">
+            <div class="card-daily">
+                <a href="#" class="dcrt">
+                    <div class="img-daily"><img src="./assets/img/daily1.jpeg" alt="">
+                    </div>
+                    <div class="information">
+                        <div class="describe">Hàng siêu cấp dép đúc quai ngang nam nữ</div>
+                        <div class="price"><span>₫99.000</span><span></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-daily">
+                <a href="#" class="dcrt">
+                    <div class="img-daily"><img src="./assets/img/daily1.jpeg" alt="">
+                    </div>
+                    <div class="information">
+                        <div class="describe">Hàng siêu cấp dép đúc quai ngang nam nữ</div>
+                        <div class="price"><span>₫99.000</span><span></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-daily">
+                <a href="#" class="dcrt">
+                    <div class="img-daily"><img src="./assets/img/daily1.jpeg" alt="">
+                    </div>
+                    <div class="information">
+                        <div class="describe">Hàng siêu cấp dép đúc quai ngang nam nữ</div>
+                        <div class="price"><span>₫99.000</span><span></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card-daily">
+                <a href="#" class="dcrt">
+                    <div class="img-daily"><img src="./assets/img/daily1.jpeg" alt="">
+                    </div>
+                    <div class="information">
+                        <div class="describe">Hàng siêu cấp dép đúc quai ngang nam nữ</div>
+                        <div class="price"><span>₫99.000</span><span></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div><a href="#" class="see-more dcrt">Xem thêm</a>
+    </div>    
+    <footer>
+    		<div class="privacy df">
+    				<div class="card-footer">
+    						<a href="#"><span class="iconify" data-icon="octicon:shield-lock-24"></span></span>Chính sách bảo mật</a>
+    				</div>
+    				<div style="background:#ccc;height:1rem;width:0.1rem"></div>
+    					<div class="card-footer">
+    						<a href="#">
+    								<span class="iconify" data-icon="icons8:support"></span>Quy chế hoạt động</a>
+    				</div>
+    		</div>    		
+    		<div class="privacy df">
+    				<div class="card-footer">
+    						<a href="#">
+    								<span class="iconify" data-icon="ph:truck-light"></span>Chính sách vận chuyển</a>
+    				</div>
+    				<div style="background:#ccc;height:1rem;width:0.1rem"></div>
+    					<div class="card-footer">
+    						<a href="#">
+    								<span class="iconify" data-icon="emojione-monotone:loudspeaker"></span>Quy trình giải quyết tranh chấp</a>
+    				</div>
+    		</div>    		
+    		<div class="registered">    				
+    						<img src="./assets/img/registered.png" alt="">   				
+    						<img src="./assets/img/registered.png" alt="">    				
+    		</div>   		
+    		<div class="registered">   				
+    						<img style="height:6.8rem;width:6.8rem" src="./assets/img/footer.png" alt=""> 		
+    		</div>
+    		<div class="blockquote-footer">
+    				<p>Công ty TNHH Shopee</p>
+    				<p>Địa chỉ: Tầng 28, Toà nhà trung tâm Lotte Hà Nội, 54 Liễu Giai, Phường Cống Vị, Quân Ba Đình, Hà Nội</p>
+    				<p>Tổng đài hỗ trợ: 19001221 - Email: support@shopee.vn</p>
+    				<p>Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015</p>
+    				<p>&copy; 2015 - Bản quyền thuộc về Công ty TNHH Shopee</p>
+    		</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.min.js"></script>
+   <script src="./assets/owlcarousel/slider.js"></script>   
+</body>
+</html>
